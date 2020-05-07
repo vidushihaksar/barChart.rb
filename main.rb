@@ -1,13 +1,13 @@
-a = [2, 5, 6, 7, 1]
-max = a.max();
+arr = [2,4,6,9,6,4,2]
+maximum = arr.max();
 
-for floor in (max).downto(1)
-    for i in (0..a.length - 1)
-        if (floor > a[i])
-            print "\t"
-        else
-            print "* \t"
-        end
+for i in (maximum).downto(1)
+  for j in (0..arr.length-1)
+    if(i > arr[j])
+      print "\t";
+    else
+      print "*\t";
     end
-    puts
+  end
+  puts();
 end
